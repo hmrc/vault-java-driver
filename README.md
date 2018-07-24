@@ -1,7 +1,9 @@
-Vault Java Driver
+Vault Java Driver - Forked
 =================
 A zero-dependency Java client for the [Vault](https://www.vaultproject.io/) secrets management solution from
 HashiCorp.
+
+### Note - This repository has been forked to fix bugs in http error logging
 
 This driver strives to implement Vault's full HTTP API, along with supporting functionality such as automatic
 retry handling.  It does so without relying on any other external libraries beyond the Java standard library,
