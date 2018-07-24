@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'signing'
 
-group 'com.bettercloud'
+group 'uk.gov.hmrc.vault'
 archivesBaseName = 'vault-java-driver'
 version '3.1.0'
 ext.isReleaseVersion = !version.endsWith('SNAPSHOT')
